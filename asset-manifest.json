@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mayastucky-portfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/mayastucky-portfolio/static/js/main.aa61a6b1.chunk.js",
+    "main.js.map": "/mayastucky-portfolio/static/js/main.aa61a6b1.chunk.js.map",
+    "runtime-main.js": "/mayastucky-portfolio/static/js/runtime-main.f28f4285.js",
+    "runtime-main.js.map": "/mayastucky-portfolio/static/js/runtime-main.f28f4285.js.map",
+    "static/js/2.ff818799.chunk.js": "/mayastucky-portfolio/static/js/2.ff818799.chunk.js",
+    "static/js/2.ff818799.chunk.js.map": "/mayastucky-portfolio/static/js/2.ff818799.chunk.js.map",
+    "index.html": "/mayastucky-portfolio/index.html",
+    "precache-manifest.006362baa1ca5f801b08384d54ace5da.js": "/mayastucky-portfolio/precache-manifest.006362baa1ca5f801b08384d54ace5da.js",
+    "service-worker.js": "/mayastucky-portfolio/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/mayastucky-portfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.ff818799.chunk.js.LICENSE.txt": "/mayastucky-portfolio/static/js/2.ff818799.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f28f4285.js",
+    "static/js/2.ff818799.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.aa61a6b1.chunk.js"
+  ]
+}
