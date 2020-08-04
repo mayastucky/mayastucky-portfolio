@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   card: {
-    backgroundColor: "white",
+    backgroundColor: "",
     textAlign: "center"
   },
 };
@@ -10,11 +10,11 @@ const styles = {
 const Contact = () => {
   return (
     <div>
-      <div class="container">
+      <div class="container" style={styles.card}>
         <div class="row">
           <div class="col-sm-6">
             <div class="row">
-              <div class="col" style={styles.card}>
+              <div class="col">
                 <h2>Contact</h2>
                 <h5> (316) 708-6747</h5>
                 <h5>

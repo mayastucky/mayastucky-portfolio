@@ -5,17 +5,17 @@ import Home from "./components/pages/Home"
 import Contact from "./components/pages/Contact"
 import Portfolio from "./components/pages/Portfolio"
 
-// const styles = {
-//   card: {
-//     backgroundColor: "black",
-//     textAlign: "center"
-//   },
-// };
+const styles = {
+  card: {
+    backgroundColor: "black",
+    textAlign: "center"
+  },
+};
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={styles.card}>
       <Router>
       <Header/>
       <Route exact path="/" component={Home} />
@@ -24,9 +24,6 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/portfolio" component={Portfolio}/>
       </Router>
-      
-      
-
     </div>
   );
 }
