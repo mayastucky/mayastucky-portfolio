@@ -22,11 +22,6 @@ const Header = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            {/* <li class="nav-item active">
-              <a class="nav-link" href="index.html">
-                About<span class="sr-only">(current)</span>
-              </a>
-            </li> */}
             <li class="nav-item">
               <Link
                 to="/"
@@ -38,23 +33,25 @@ const Header = () => {
               </Link>
             </li>
             <li class="nav-item">
-              {/* <a class="nav-link" href="portfolio.html">
-                Portfolio
-              </a> */}
               <Link
                 to="/contact"
                 className={
-                  location.pathname === "/contact" ? "nav-link active" : "nav-link"
+                  location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"
                 }
               >
                 Contact
               </Link>
             </li>
-            {/* <li class="nav-item">
-              <a class="nav-link" href="revisedresume.pdf">
-                Resume
-              </a>
-            </li> */}
+            <Link
+                to="/portfolio"
+                className={
+                  location.pathname === "/portfolio" ? "nav-link active" : "nav-link"
+                }
+              >
+                Portfolio
+              </Link>
           </ul>
         </div>
       </div>

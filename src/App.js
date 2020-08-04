@@ -3,8 +3,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header"
 import Home from "./components/pages/Home"
 import Contact from "./components/pages/Contact"
+import Portfolio from "./components/pages/Portfolio"
 
-
+// const styles = {
+//   card: {
+//     backgroundColor: "black",
+//     textAlign: "center"
+//   },
+// };
 
 
 function App() {
@@ -16,6 +22,7 @@ function App() {
         {/* <Route exact path="/about" component={About} /> */}
         {/* <Route exact path="/blog" component={Blog} /> */}
         <Route path="/contact" component={Contact} />
+        <Route path="/portfolio" component={Portfolio}/>
       </Router>
       
       
