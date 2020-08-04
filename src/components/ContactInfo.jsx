@@ -2,18 +2,19 @@ import React from "react";
 
 const styles = {
   card: {
-    background: "#e8eaf6",
+    backgroundColor: "white",
+    textAlign: "center"
   },
 };
 
 const Contact = () => {
   return (
     <div>
-      <div class="container" style={styles.card}>
+      <div class="container">
         <div class="row">
           <div class="col-sm-6">
             <div class="row">
-              <div class="col">
+              <div class="col" style={styles.card}>
                 <h2>Contact</h2>
                 <h5> (316) 708-6747</h5>
                 <h5>
