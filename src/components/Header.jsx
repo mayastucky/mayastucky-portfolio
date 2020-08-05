@@ -1,12 +1,21 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
+
 const Header = () => {
+  const styles = {
+    navbar: {
+      //i want to make the navbar a different color 
+      color: "pink"
+    }
+  }
+
   const location = useLocation();
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={styles.navbar}>
       <div className="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" style={styles.navbar}>
           Maya Stucky
         </a>
         <button

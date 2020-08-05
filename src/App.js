@@ -6,10 +6,10 @@ import Contact from "./components/pages/Contact"
 import Portfolio from "./components/pages/Portfolio"
 
 const styles = {
-  card: {
-    backgroundColor: "black",
-    textAlign: "center"
-  },
+  // card: {
+  //   backgroundColor: "black",
+  //   textAlign: "center"
+  // },
 };
 
 
