@@ -15,11 +15,11 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" style={styles.navbar}>
       <div className="container">
-        <a class="navbar-brand" href="/" style={styles.navbar}>
+        <Link className ="navbar-brand" to="/" style={styles.navbar}>
           Maya Stucky
-        </a>
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -27,21 +27,21 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              {/* <Link
                 to="/"
                 className={
                   location.pathname === "/" ? "nav-link active" : "nav-link"
                 }
               >
                 About
-              </Link>
+              </Link> */}
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 to="/contact"
                 className={

@@ -1,28 +1,23 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/Header"
-import Home from "./components/pages/Home"
-import Contact from "./components/pages/Contact"
-import Portfolio from "./components/pages/Portfolio"
+import Header from "./components/Header";
+import Home from "./components/pages/Home";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
 
-const styles = {
-  // card: {
-  //   backgroundColor: "black",
-  //   textAlign: "center"
-  // },
-};
 
 
 function App() {
+  // const styles = {
+  // };
   return (
-    <div className="App" style={styles.card}>
+    <div className="App">
       <Router>
-      <Header/>
-      <Route exact path="/" component={Home} />
-        {/* <Route exact path="/about" component={About} /> */}
-        {/* <Route exact path="/blog" component={Blog} /> */}
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/mayastucky-portfolio" component={Home} />
         <Route path="/contact" component={Contact} />
-        <Route path="/portfolio" component={Portfolio}/>
+        <Route path="/portfolio" component={Portfolio} />
       </Router>
     </div>
   );

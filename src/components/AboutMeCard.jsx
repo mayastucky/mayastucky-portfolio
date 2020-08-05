@@ -3,17 +3,17 @@ import React from "react";
 const AboutMeCard = () => {
   return (
     <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6" id="whiteborder">
-            <div class="row">
-              <div class="col">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6" id="whiteborder">
+            <div className="row">
+              <div className="col">
                 <h2>About Me</h2>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                {/* <img class="maya" src="mayasmall.jpg" alt="maya stucky" /> */}
+            <div className="row">
+              <div className="col-md-12">
+                {/* <img className="maya" src="mayasmall.jpg" alt="maya stucky" /> */}
                 <p>
                   Hi all! I'm Maya! Welcome to my page. I am enjoying the
                   Georgia Tech Web Development Bootcamp and honing my developer
