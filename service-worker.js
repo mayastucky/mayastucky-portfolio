@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mayastucky-portfolio/precache-manifest.c8ac3a28cd8f4cd98303204f99132d0b.js"
+  "/mayastucky-portfolio/precache-manifest.03e6be9858d53444e7395a5093331527.js"
 );
 
 self.addEventListener('message', (event) => {
