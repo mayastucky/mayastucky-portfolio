@@ -11,12 +11,12 @@ const styles = {
         width: "100%",
         backgroundColor: "#F29CA3",
         color: "white",
-        textAlign: "center"
+        textAlign: "center",
+        height: "40px"
     }
 }
     return (
         <footer style={styles.footer}>
-            <br></br>
             <p>Made with Love</p>
         </footer>
     );
