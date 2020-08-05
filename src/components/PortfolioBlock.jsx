@@ -17,10 +17,10 @@ const PortfolioBlock = (props) => {
           alt={props.alt}
           style={styles.imageSize}
         />
-        <figcaption className="figure-caption" style={{ marginBottom: "30px" }}>
+        <figcaption className="figure-caption" style={{ marginBottom: "30px", textAlign:"center" }}>
           {props.name}
-          <a href={props.deployedLink}>Site</a>
-          <a href={props.githubLink}>GitHub</a>
+          <a href={props.deployedLink}> Site </a>
+          <a href={props.githubLink}> GitHub </a>
         </figcaption>
       </figure>
     </div>
