@@ -7,7 +7,7 @@ const PortfolioBlock = (props) => {
       height: "300px",
     },
     captions: {
-      color: "white",
+      color: "#650D1B",
       marginBottom: "30px", 
       textAlign: "center"
     },

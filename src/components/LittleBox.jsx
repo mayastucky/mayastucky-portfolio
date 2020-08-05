@@ -4,7 +4,7 @@ const LittleBox = (props) => {
   const styles = {
     box: {
       paddingTop: "20px",
-      backgroundColor: "#f4f1de",
+      backgroundColor: "#DDC8C4",
       margin: "auto",
       borderRadius: "30px",
       paddingBottom: "30px",
@@ -12,7 +12,7 @@ const LittleBox = (props) => {
       minHeight: "550px"
     },
     title: {
-        color:"#D5896F"
+        color:"#420217"
     }
   };
   return (

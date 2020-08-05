@@ -3,7 +3,7 @@ import LittleBox from "../LittleBox";
 
 const styles = {
     contact:{
-      color: "#81b29a",
+      color: "#420217",
       textAlign: "center",
       marginTop: "40px"
     }
