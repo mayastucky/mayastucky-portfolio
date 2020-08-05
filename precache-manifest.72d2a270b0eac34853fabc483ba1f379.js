@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c8df45ad6b717e2cd3c16590c9f6daf",
+    "revision": "0cdd1a847c7aabfe7ae7b989619338c3",
     "url": "/mayastucky-portfolio/index.html"
   },
   {
-    "revision": "325a9900cab298fee13b",
-    "url": "/mayastucky-portfolio/static/css/main.e2286be8.chunk.css"
+    "revision": "6cef38fc60e77567a92e",
+    "url": "/mayastucky-portfolio/static/css/main.8d7b5f16.chunk.css"
   },
   {
     "revision": "2015ddbc958ca87103de",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "325a9900cab298fee13b",
-    "url": "/mayastucky-portfolio/static/js/main.155339ec.chunk.js"
+    "revision": "6cef38fc60e77567a92e",
+    "url": "/mayastucky-portfolio/static/js/main.b4cc5880.chunk.js"
   },
   {
     "revision": "084de6b19fef87d24dfd",

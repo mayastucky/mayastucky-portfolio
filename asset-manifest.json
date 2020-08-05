@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mayastucky-portfolio/static/css/main.e2286be8.chunk.css",
-    "main.js": "/mayastucky-portfolio/static/js/main.155339ec.chunk.js",
-    "main.js.map": "/mayastucky-portfolio/static/js/main.155339ec.chunk.js.map",
+    "main.css": "/mayastucky-portfolio/static/css/main.8d7b5f16.chunk.css",
+    "main.js": "/mayastucky-portfolio/static/js/main.b4cc5880.chunk.js",
+    "main.js.map": "/mayastucky-portfolio/static/js/main.b4cc5880.chunk.js.map",
     "runtime-main.js": "/mayastucky-portfolio/static/js/runtime-main.f28f4285.js",
     "runtime-main.js.map": "/mayastucky-portfolio/static/js/runtime-main.f28f4285.js.map",
     "static/js/2.b82dab16.chunk.js": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js",
     "static/js/2.b82dab16.chunk.js.map": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js.map",
     "index.html": "/mayastucky-portfolio/index.html",
-    "precache-manifest.03e6be9858d53444e7395a5093331527.js": "/mayastucky-portfolio/precache-manifest.03e6be9858d53444e7395a5093331527.js",
+    "precache-manifest.72d2a270b0eac34853fabc483ba1f379.js": "/mayastucky-portfolio/precache-manifest.72d2a270b0eac34853fabc483ba1f379.js",
     "service-worker.js": "/mayastucky-portfolio/service-worker.js",
-    "static/css/main.e2286be8.chunk.css.map": "/mayastucky-portfolio/static/css/main.e2286be8.chunk.css.map",
+    "static/css/main.8d7b5f16.chunk.css.map": "/mayastucky-portfolio/static/css/main.8d7b5f16.chunk.css.map",
     "static/js/2.b82dab16.chunk.js.LICENSE.txt": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f28f4285.js",
     "static/js/2.b82dab16.chunk.js",
-    "static/css/main.e2286be8.chunk.css",
-    "static/js/main.155339ec.chunk.js"
+    "static/css/main.8d7b5f16.chunk.css",
+    "static/js/main.b4cc5880.chunk.js"
   ]
 }
