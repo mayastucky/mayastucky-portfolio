@@ -1,11 +1,9 @@
 import React from "react";
-import ContactInfo from "../ContactInfo";
 import LittleBox from "../LittleBox";
 
 const styles = {
     contact:{
       color: "#81b29a",
-      // padding: "20px",
       textAlign: "center",
       marginTop: "40px"
     }
@@ -23,7 +21,6 @@ const Contact = () => {
       linkedInLinkTitle="LinkedIn"
       contactStyle={styles.contact}
       >
-        {/* <ContactInfo style={styles.card} /> */}
       </LittleBox>
     </div>
   );

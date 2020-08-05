@@ -9,8 +9,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  // const styles = {
-  // };
+
   return (
     <div className="App">
       <Router>

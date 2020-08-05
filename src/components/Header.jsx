@@ -7,7 +7,7 @@ const Header = () => {
   const styles = {
     navbar: {
       //i want to make the navbar a different color 
-      color: "#F29CA3"
+      color: "#D5896F"
     }
   }
 
@@ -32,18 +32,11 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              {/* <Link
-                to="/"
-                className={
-                  location.pathname === "/" ? "nav-link active" : "nav-link"
-                }
-              >
-                About
-              </Link> */}
             </li>
             <li className="nav-item">
               <Link
                 to="/contact"
+                style={styles.navbar}
                 className={
                   location.pathname === "/contact"
                     ? "nav-link active"
@@ -55,6 +48,7 @@ const Header = () => {
             </li>
             <Link
                 to="/portfolio"
+                style={styles.navbar}
                 className={
                   location.pathname === "/portfolio" ? "nav-link active" : "nav-link"
                 }

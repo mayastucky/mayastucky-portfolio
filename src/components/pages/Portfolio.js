@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <div className="container">
       <div className="row">
-        <h2>Portfolio</h2>
+        <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2>
       </div>
       <div className="row">
         {/* Maestro */}
