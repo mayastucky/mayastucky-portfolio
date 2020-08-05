@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description 
+
+This application was designed to be a web development portfolio for job applications/broadening internet presence. 
+
 ![Deployed App](app.png)
 
 ## Installation
