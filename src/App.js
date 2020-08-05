@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
+import Footer from "./components/Footer";
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/portfolio" component={Portfolio} />
       </Router>
+      <Footer/>
     </div>
   );
 }

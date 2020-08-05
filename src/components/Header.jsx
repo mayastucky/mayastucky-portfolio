@@ -7,7 +7,7 @@ const Header = () => {
   const styles = {
     navbar: {
       //i want to make the navbar a different color 
-      color: "pink"
+      color: "#F29CA3"
     }
   }
 
