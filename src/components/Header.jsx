@@ -7,13 +7,13 @@ const Header = () => {
   const styles = {
     navbar: {
       //i want to make the navbar a different color 
-      color: "#D5896F"
+      color: "#D5896F !important"
     }
   }
 
   const location = useLocation();
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={styles.navbar}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link className ="navbar-brand" to="/" style={styles.navbar}>
           Maya Stucky
