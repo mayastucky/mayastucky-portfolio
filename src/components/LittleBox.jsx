@@ -9,8 +9,11 @@ const LittleBox = (props) => {
       borderRadius: "30px",
       paddingBottom: "30px",
       maxHeight: "1000px",
-      minHeight: "550px",
+      minHeight: "550px"
     },
+    title: {
+        color:"#D5896F"
+    }
   };
   return (
     <div>
@@ -21,7 +24,7 @@ const LittleBox = (props) => {
           <div className="col-sm-6" style={styles.box}>
             <div className="row">
               <div className="col">
-                <h2>{props.title}</h2>
+                <h2 style = {styles.title}>{props.title}</h2>
               </div>
             </div>
 
@@ -40,7 +43,6 @@ const LittleBox = (props) => {
               <img src={props.src} alt={props.alt} style={props.style} />
               <p>{props.text}</p>
             </div>
-            {/* </div> */}
           </div>
         </div>
       </div>

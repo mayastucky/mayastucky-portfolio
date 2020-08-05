@@ -9,15 +9,15 @@ const styles = {
         left: 0,
         bottom: 0,
         width: "100%",
-        backgroundColor: "#F29CA3",
-        color: "white",
+        // backgroundColor: "#C9B1BD",
+        color: "black",
         textAlign: "center",
         height: "40px"
     }
 }
     return (
         <footer style={styles.footer}>
-            <p>Made with Love</p>
+            <p>Made with <span role="img" aria-label="heart emoji">💞</span></p>
         </footer>
     );
 }

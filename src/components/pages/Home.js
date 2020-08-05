@@ -1,8 +1,6 @@
 import React from "react";
 import LittleBox from "../LittleBox";
-// import AboutMeCard from './components/AboutMeCard';
-// import Contact from './components/ContactInfo';
-// import AboutMeCard from "../AboutMeCard"
+
 
 const styles = {
   maya: {
@@ -19,7 +17,6 @@ const styles = {
 const Home = () => {
   return (
     <div style={styles.card}>
-      {/* <AboutMeCard/> */}
       <LittleBox
         title="About Me"
         style={styles.maya}
