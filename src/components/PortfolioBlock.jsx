@@ -6,6 +6,16 @@ const PortfolioBlock = (props) => {
       width: "400px",
       height: "300px",
     },
+    captions: {
+      color: "white",
+      marginBottom: "30px", 
+      textAlign: "center"
+    },
+
+    links: {
+      // color: "#6D597A"
+      color: "#1B263B"
+    }
   };
 
   return (
@@ -17,10 +27,13 @@ const PortfolioBlock = (props) => {
           alt={props.alt}
           style={styles.imageSize}
         />
-        <figcaption className="figure-caption" style={{ marginBottom: "30px", textAlign:"center" }}>
+        <figcaption
+          className="figure-caption"
+          style={styles.captions}
+        >
           {props.name}
-          <a href={props.deployedLink}> Site </a>
-          <a href={props.githubLink}> GitHub </a>
+          <a href={props.deployedLink} style={styles.links}> Site </a>
+          <a href={props.githubLink} style={styles.links}> GitHub </a>
         </figcaption>
       </figure>
     </div>

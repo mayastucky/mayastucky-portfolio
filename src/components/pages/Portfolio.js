@@ -6,9 +6,9 @@ const Portfolio = () => {
   return (
     <div className="container">
       <div className="row">
-        <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2>
+        {/* <h2 style={{color:"#D5896F", marginTop: "20px"}}>Portfolio</h2> */}
       </div>
-      <div className="row">
+      <div className="row" style={{marginTop:"30px"}}>
         {/* Maestro */}
         <PortfolioBlock
           src="https://github.com/mayastucky/gt-project-2/raw/master/public/img/maestro-screenshot.png"
