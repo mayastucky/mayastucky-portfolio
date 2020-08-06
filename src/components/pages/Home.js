@@ -1,5 +1,8 @@
 import React from "react";
 import LittleBox from "../LittleBox";
+// import Profile from "../maya.png"
+// import Profile from "./maya.png"
+import Profile from "../maya.png"
 
 
 const styles = {
@@ -9,7 +12,7 @@ const styles = {
     display: "block",
     marginLeft: "auto",
     marginRight: "auto",
-    borderRadius: "50%",
+    borderRadius: "30%",
     marginBottom: "10px",
   },
 };
@@ -20,7 +23,7 @@ const Home = () => {
       <LittleBox
         title="About Me"
         style={styles.maya}
-        src="https://github.com/mayastucky/homework2-bootstrap-css/blob/master/mayasmall.jpg?raw=true"
+        src={Profile}
         alt="Maya Stucky"
         text="Hi all! I'm Maya! Welcome to my page. I am enjoying the
             Georgia Tech Web Development Bootcamp and honing my developer
