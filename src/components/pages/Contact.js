@@ -6,8 +6,11 @@ const styles = {
       color: "#420217",
       textAlign: "center",
       marginTop: "40px"
-    }
+    }, 
 };
+
+
+
 
 const Contact = () => {
   return (
