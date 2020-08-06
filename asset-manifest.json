@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mayastucky-portfolio/static/css/main.248d4753.chunk.css",
-    "main.js": "/mayastucky-portfolio/static/js/main.4ffe0f12.chunk.js",
-    "main.js.map": "/mayastucky-portfolio/static/js/main.4ffe0f12.chunk.js.map",
+    "main.js": "/mayastucky-portfolio/static/js/main.400a6c8c.chunk.js",
+    "main.js.map": "/mayastucky-portfolio/static/js/main.400a6c8c.chunk.js.map",
     "runtime-main.js": "/mayastucky-portfolio/static/js/runtime-main.f28f4285.js",
     "runtime-main.js.map": "/mayastucky-portfolio/static/js/runtime-main.f28f4285.js.map",
     "static/js/2.b82dab16.chunk.js": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js",
     "static/js/2.b82dab16.chunk.js.map": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js.map",
     "index.html": "/mayastucky-portfolio/index.html",
-    "precache-manifest.e5130cc9caaf20dd82aa4910a31329eb.js": "/mayastucky-portfolio/precache-manifest.e5130cc9caaf20dd82aa4910a31329eb.js",
+    "precache-manifest.fba6f382a23a923cf112aa1976efcb13.js": "/mayastucky-portfolio/precache-manifest.fba6f382a23a923cf112aa1976efcb13.js",
     "service-worker.js": "/mayastucky-portfolio/service-worker.js",
     "static/css/main.248d4753.chunk.css.map": "/mayastucky-portfolio/static/css/main.248d4753.chunk.css.map",
     "static/js/2.b82dab16.chunk.js.LICENSE.txt": "/mayastucky-portfolio/static/js/2.b82dab16.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f28f4285.js",
     "static/js/2.b82dab16.chunk.js",
     "static/css/main.248d4753.chunk.css",
-    "static/js/main.4ffe0f12.chunk.js"
+    "static/js/main.400a6c8c.chunk.js"
   ]
 }
