@@ -7,10 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("https://images.pexels.com/photos/1764702/pexels-photo-1764702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
   background-image: url("https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  /* font-family: 'Libre Franklin', sans-serif; */
-  font-family: 'Roboto Mono', monospace;
-  /* font-family: 'Cabin', sans-serif; */
-  /* font-family: 'Hind', sans-serif; */
+
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Montserrat', sans-serif;
 
 }
 
